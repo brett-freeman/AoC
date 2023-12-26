@@ -1,4 +1,4 @@
-fd = open('sample_input', 'r')
+fd = open('d1input', 'r')
 lines = fd.read().splitlines()
 ans = 0
 
