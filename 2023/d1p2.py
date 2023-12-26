@@ -1,7 +1,6 @@
 fd = open('d1input', 'r')
 lines = fd.read().splitlines()
 ans = 0
-
 wordnum = [
     'one',
     'two',
@@ -23,4 +22,5 @@ for line in lines:
             if line[i:i+len(num)] == num:
                 digits.append(str(j+1))
     ans += int(digits[0] + digits[-1])
+
 print(ans)
