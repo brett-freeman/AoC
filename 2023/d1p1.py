@@ -8,5 +8,4 @@ for line in lines:
         if c.isdigit():
             digits.append(c)
     ans += int(digits[0] + digits[-1])
-
 print(ans)
